@@ -30,7 +30,7 @@ class LadminPublicStorage {
       'description' => 'List of public storage',
       'route' => ['administrator.storage.index', []],
       'isActive' => 'storage*',
-      'icon' => 'folder-open',
+      'icon' => 'folder',
       'id' => '',
       'gates' => [],
     ];
