@@ -4,7 +4,7 @@ This is a plugin for the [hexters\ladmin](https://github.com/hexters/ladmin) pac
 
 ![Example Image](https://github.com/hexters/ladmin-public-storage-plugin/blob/master/example.png?raw=true)
 
-### Instalation
+### Installation
 
 You can install this package via composer:
 ```
