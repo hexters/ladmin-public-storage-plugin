@@ -1,6 +1,8 @@
 {
     "name": "hexters/ladmin-public-storage-plugin",
     "description": "File storage plugin for package ladmin (Laravel Admin)",
+    "keywords": ["Laravel", "Laravel Plugin", "Storage Module"],
+    "license": "MIT",
     "authors": [
         {
             "name": "asep",
