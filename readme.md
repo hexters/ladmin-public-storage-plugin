@@ -59,3 +59,8 @@ return [
   . . .
 
 ```
+
+Publish config file
+```
+$ php artisan vendor:publish --tag=public-storage-plugin
+```

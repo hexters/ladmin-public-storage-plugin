@@ -26,9 +26,13 @@ class LadminPublicStoragePluginServiceProvider extends ServiceProvider
      */
     public function boot() {
 
+        /**
+         * Publis
+         * php artisan vendor:publish --tag=public-storage-plugin
+         */
         $this->publishes([
             __DIR__ . '/../config/ladmin_public_storage_plugin.php' => config_path('ladmin_public_storage_plugin.php'),
-        ], 'config');
+        ], 'public-storage-plugin');
 
 
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'storage');
