@@ -34,7 +34,7 @@ use Hexters\Ladmin\Plugin\PublicStorage\LadminPublicStorage;
 Ladmin::route(function() {
 
   . . .
-  LadminPublicStoragePlugin::route();
+  LadminPublicStorage::route();
   . . .
 
 });
@@ -46,7 +46,7 @@ Add this menu to `app/menus/sidebar.php`
 
 . . .
 
-use Hexters\Ladmin\Plugin\PublicStorage\LadminPublicStoragePlugin;
+use Hexters\Ladmin\Plugin\PublicStorage\LadminPublicStorage;
 
 . . .
 
@@ -54,7 +54,7 @@ return [
 
   . . .
 
-  LadminPublicStoragePlugin::menus(),
+  LadminPublicStorage::menus(),
 
   . . .
 
