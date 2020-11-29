@@ -1,0 +1,26 @@
+{
+    "name": "hexters/ladmin-public-storage-plugin",
+    "description": "File storage plugin for package ladmin (Laravel Admin)",
+    "authors": [
+        {
+            "name": "asep",
+            "email": "hexters@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hexters\\Ladmin\\Plugin\\PublicStorage\\":  "src/"
+        },
+        "files": [
+            "src/Support/helper.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hexters\\Ladmin\\Plugin\\PublicStorage\\LadminPublicStoragePluginServiceProvider"
+            ]
+        }
+    }
+}
