@@ -1,27 +1,12 @@
 ## Ladmin PublicStorage Plugin
 
-This is plugin for package [hexters\ladmin](https://github.com/hexters/ladmin)
+This is a plugin for the [hexters\ladmin](https://github.com/hexters/ladmin) package
 
 ![Example Image](https://github.com/hexters/ladmin-public-storage-plugin/blob/master/example.png?raw=true)
 
 ### Instalation
-Add this repository to your `composer.json`
-```
-. . .
 
-"repositories": [
-  . . .
-  {
-    "type": "vcs",
-    "url": "https://github.com/hexters/ladmin-public-storage-plugin"
-  }
-  . . .
-],
-"autoload": {
-  "psr-4": {
-. . .
-```
-Install plugin 
+You can install this package via composer:
 ```
 $ composer require hexters/ladmin-public-storage-plugin
 ```
