@@ -1,4 +1,4 @@
-## Ladmin PublicStorage Plugin
+## Ladmin Public Storage Plugin
 
 This is a plugin for the [hexters\ladmin](https://github.com/hexters/ladmin) package
 
