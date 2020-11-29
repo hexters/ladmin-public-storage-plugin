@@ -17,7 +17,7 @@
         | 
         */
 
-        'public_storage_url' => asset('/')
+        'public_storage_url' => '/storage'
 
         
     ];

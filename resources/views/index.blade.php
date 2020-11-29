@@ -1,6 +1,12 @@
 <x-ladmin-layout>
-  <x-slot name="title">List Of Public Storage</x-slot>
-  <h6 class="font-weight-bold mb-3">Directories ({{ number_format(count($directories['directories']), 0) }})</h6>
+  <x-slot name="title">
+    <span title="{{ 'Storage' . request()->get('dir', '/') }}">
+      /{{ Str::limit( 'Storage' . request()->get('dir', '/'), 30 ) }}
+    </span>
+  </x-slot>
+  <h6 class="font-weight-bold">
+    Directories ({{ number_format(count($directories['directories']), 0) }})
+  </h6>
   <div class="row">
     @forelse ($directories['directories'] as $dir)
         <div class="col-md-3 mb-3" data-toggle="tooltip" data-placement="top" title="{{ $dir }}">
