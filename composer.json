@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "hexters/ladmin": "^1.*"
+        "hexters/ladmin": "1.*"
     },
     "autoload": {
         "psr-4": {
