@@ -2,6 +2,8 @@
 
 This is plugin for package [hexters\ladmin](https://github.com/hexters/ladmin)
 
+![Example Image](https://github.com/hexters/ladmin-public-storage-plugin/blob/master/example.png?raw=true)
+
 ### Instalation
 Add this repository to your `composer.json`
 ```
