@@ -14,7 +14,7 @@ class LadminPublicStorage {
    */
   public static function route() {
 
-    Route::resource('/storage', PublicStorageController::class);
+    Route::resource('/storage', PublicStorageController::class)->only(['index']);
 
   }
 
