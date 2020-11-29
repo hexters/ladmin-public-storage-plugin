@@ -7,7 +7,9 @@
             "email": "hexters@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "hexters/ladmin": "^1.*"
+    },
     "autoload": {
         "psr-4": {
             "Hexters\\Ladmin\\Plugin\\PublicStorage\\":  "src/"

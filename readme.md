@@ -65,4 +65,4 @@ Publish config file
 $ php artisan vendor:publish --tag=public-storage-plugin
 ```
 
-last open permission for public storage plugin
+And the last open permission for public storage plugin
