@@ -21,7 +21,7 @@
         | 
         */
 
-        'public_storage_url' => env('APP_URL') . '/storage'
+        'public_storage_url' => '/storage'
 
         
     ];
