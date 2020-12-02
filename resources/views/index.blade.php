@@ -30,7 +30,7 @@
   <div class="row">
     @forelse ($directories['files'] as $file)
         <div class="col-md-3 mb-3" data-toggle="tooltip" data-placement="top" title="{{ $file }}">
-          <a class="text-dark text-decoration-none" href="{{ storage()->url($file) }}" target="_blank">
+          <a class="text-dark text-decoration-none" href="{{ storage()->url(request()->get('dir', '/') . '/' . $file) }}" target="_blank">
             <x-ladmin-card>
               {!! ladmin()->icon('document') !!} 
               {{ Str::limit($file, 13) }}
