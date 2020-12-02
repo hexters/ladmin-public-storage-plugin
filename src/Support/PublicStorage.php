@@ -42,7 +42,7 @@ class PublicStorage {
   }
 
   public function url($path = null) {
-    return config('ladmin_public_storage_plugin.public_storage_url') . '/' . ltrim($path, '/');
+    return url(config('ladmin_public_storage_plugin.public_storage_url')) . '/' . ltrim($path, '/');
   }
 
 }
