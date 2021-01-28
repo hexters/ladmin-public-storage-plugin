@@ -11,12 +11,12 @@ This is a plugin for the [hexters\ladmin](https://github.com/hexters/ladmin) pac
 ### Installation
 
 You can install this package via composer:
-```
+```bash
 $ composer require hexters/ladmin-public-storage-plugin
 ```
 
 Add this route to Ladmin route
-```
+```php
 . . .
 use Hexters\Ladmin\Routes\Ladmin;
 use Hexters\Ladmin\Plugin\PublicStorage\LadminPublicStorage;
@@ -32,7 +32,7 @@ Ladmin::route(function() {
 ```
 
 Add this menu to `app/menus/sidebar.php`
-```
+```php
 <?php 
 
 . . .
@@ -52,7 +52,7 @@ return [
 ```
 
 Publish config file
-```
+```bash
 $ php artisan vendor:publish --tag=public-storage-plugin
 ```
 
