@@ -4,7 +4,7 @@
 [![Total Downloads](https://poser.pugx.org/hexters/ladmin-public-storage-plugin/downloads)](https://packagist.org/packages/hexters/ladmin-public-storage-plugin)
 [![License](https://poser.pugx.org/hexters/ladmin-public-storage-plugin/license)](https://packagist.org/packages/hexters/ladmin-public-storage-plugin)
 
-This is a plugin for the [hexters\ladmin](https://github.com/hexters/ladmin) package
+This is a plugin for the [hexters\ladmin](https://github.com/hexters/ladmin/blob/v1.8.3/readme.md) package
 
 ![Example Image](https://github.com/hexters/ladmin-public-storage-plugin/blob/master/example.png?raw=true)
 
